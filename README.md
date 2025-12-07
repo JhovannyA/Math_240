@@ -2,8 +2,7 @@
 **Course:** Math 240 | **Topic:** Linear Transformations
 
 Overview
-This project visualizes linear algebra transformations using Python. By animating the movement of unit vectors and grid lines, this tool demonstrates how matrices affect vector spaces—specifically focusing on rotation, shearing, reflection, and projection.
-
+This project visualizes linear algebra transformations using Python.
 ---
 
 Visualizations
