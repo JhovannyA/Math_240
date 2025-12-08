@@ -11,9 +11,7 @@ if not os.path.exists(output_folder):
 
 print(f"--- Processing started. Output folder: /{output_folder} ---")
 
-# ==========================================
 # 1. SETUP & HELPER FUNCTIONS
-# ==========================================
 
 def get_rebel_shape():
     """Generates the 3x100 matrix for a 3D Helix."""
@@ -120,9 +118,8 @@ def save_animation(points, frame_generator, base_matrix, title, filename):
     anim.save(save_path, writer=PillowWriter(fps=15))
     plt.close(fig)
 
-# ==========================================
-# 2. MAIN EXECUTION
-# ==========================================
+
+# 2.EXECUTION
 
 points = get_rebel_shape()
 
